@@ -49,3 +49,7 @@ repository
 - [GitHub Actions Billing](https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions)
 - [Managing GitHub Actions settings for a repository](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/enabling-features-for-your-repository/managing-github-actions-settings-for-a-repository)
 - [academind/github-actions-course-resources](https://github.com/academind/github-actions-course-resources)
+
+## Courses
+### Udemy
+- [Learn how to build automated CI / CD workflows with GitHub's DevOps service.](https://ibm-learning.udemy.com/course/github-actions-the-complete-guide/learn/lecture/34138472#overview)
