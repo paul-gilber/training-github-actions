@@ -1,3 +1,7 @@
 name: Test Project
 
-on: 
+on: push
+
+jobs:
+  
+    
