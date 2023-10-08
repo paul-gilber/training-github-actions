@@ -66,6 +66,7 @@ repository
 - [Managing GitHub Actions settings for a repository](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/enabling-features-for-your-repository/managing-github-actions-settings-for-a-repository)
 - [About GitHub-hosted runners](https://docs.github.com/en/actions/using-github-hosted-runners/about-github-hosted-runners/about-github-hosted-runners)
 - [Events that trigger workflows](https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows)
+- [GitHub Action Marketplace](https://github.com/marketplace?type=actions)
 - [academind/github-actions-course-resources](https://github.com/academind/github-actions-course-resources)
 
 ## Courses
