@@ -45,6 +45,22 @@ repository
 - Are executed in order
 - Can be conditional
 
+## Events (Workflow Triggers)
+1. Repository-related
+- push
+- fork
+- watch
+- pull_request
+- issues
+- discussion
+- create
+- issue_comment
+2. Other
+- workflow_dispatch
+- repository_dispatch
+- schedule
+- workflow_call
+
 ## References
 - [GitHub Actions Billing](https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions)
 - [Managing GitHub Actions settings for a repository](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/enabling-features-for-your-repository/managing-github-actions-settings-for-a-repository)
