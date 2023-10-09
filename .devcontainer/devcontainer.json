@@ -44,5 +44,14 @@
 			"target": "/home/vscode/.ssh",
 			"type": "bind"
 		}
-	]
+	],
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"github.vscode-github-actions",
+				"ms-azuretools.vscode-docker",
+				"dbaeumer.vscode-eslint"
+			]
+		}
+	}
 }

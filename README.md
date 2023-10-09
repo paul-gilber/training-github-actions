@@ -67,6 +67,8 @@ repository
 - [About GitHub-hosted runners](https://docs.github.com/en/actions/using-github-hosted-runners/about-github-hosted-runners/about-github-hosted-runners)
 - [Events that trigger workflows](https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows)
 - [GitHub Action Marketplace](https://github.com/marketplace?type=actions)
+- [Contexts](https://docs.github.com/en/actions/learn-github-actions/contexts)
+- [Expressions](https://docs.github.com/en/actions/learn-github-actions/expressions)
 - [academind/github-actions-course-resources](https://github.com/academind/github-actions-course-resources)
 
 ## Courses
