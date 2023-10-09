@@ -1,6 +1,9 @@
 name: Deploy Project
 
-on: push
+# Multiple triggers
+on:
+  - push                 # Trigger workflow upon push
+  - workflow_dispatch    # Trigger workflow upon manual trigger
 
 jobs:
   test:
