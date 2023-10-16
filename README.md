@@ -71,6 +71,7 @@ repository
 - [Contexts](https://docs.github.com/en/actions/learn-github-actions/contexts)
 - [Expressions](https://docs.github.com/en/actions/learn-github-actions/expressions)
 - [Skipping workflow runs](https://docs.github.com/en/actions/managing-workflow-runs/skipping-workflow-runs)
+- [Defining outputs for jobs](https://docs.github.com/en/actions/using-jobs/defining-outputs-for-jobs)
 - [academind/github-actions-course-resources](https://github.com/academind/github-actions-course-resources)
 
 ## Courses
