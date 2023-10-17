@@ -1,0 +1,51 @@
+# Section 6: Using Environment Variables & Secrets
+
+name: Deployment
+on:
+  push:
+    branches:
+      - main
+      - dev
+# Workflow level environment variables will be available on all jobs unless overridden
+env:
+  MONGODB_DB_NAME: demo
+jobs:
+  test:
+    # Environment variables defined on this level will only be available on 'test' job
+    env:
+      # MongoDB
+      MONGODB_CLUSTER_ADDRESS: pgilber.fyuznda.mongodb.net
+      MONGODB_USERNAME: github-action
+      MONGODB_PASSWORD: sQvCn0x1s1Kkj9hX
+      # Project
+      PORT: 8080
+    environment: testing
+    runs-on: ubuntu-latest
+    steps:
+      - name: Get Code
+        uses: actions/checkout@v4
+      - name: Cache dependencies
+        uses: actions/cache@v3
+        with:
+          path: ~/.npm
+          key: npm-deps-${{ hashFiles('**/package-lock.json') }}
+      - name: Install dependencies
+        run: npm ci
+      - name: Run server
+      # https://docs.github.com/en/actions/learn-github-actions/contexts#env-context
+        run: npm start & npx wait-on http://127.0.0.1:${{ env.PORT }} # or $PORT
+      - name: Run tests
+        run: npm test
+      - name: Output information
+        # https://docs.github.com/en/actions/learn-github-actions/contexts#env-context
+        # or $MONGODB_USERNAME
+        run: |
+          echo "MONGODB_USERNAME: ${{ env.MONGODB_USERNAME }}"
+  deploy:
+    needs: test
+    runs-on: ubuntu-latest
+    steps:
+      - name: Output information
+        run: |
+          echo "MONGODB_USERNAME: ${{ env.MONGODB_USERNAME }}"
+          echo "MONGODB_DB_NAME: ${{ env.MONGODB_DB_NAME }}"
