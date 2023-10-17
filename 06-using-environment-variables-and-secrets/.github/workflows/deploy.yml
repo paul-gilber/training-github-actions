@@ -2,11 +2,13 @@
 
 # Environment Variables
 # - Can be defined on Workflow level
-# - Can be defined on Job level (overrides Workflow level variables)
+# - Can be defined on Job level  (overrides Workflow level variables)
+# - Can be defined on Step level (overrides Job level variables)
 
 # Secrets
 # - Can be defined on Organization level
 # - Can be defined on Repository level
+# - Can be defined on Repository Environments
 # Note: value cannot be viewed after creation, you can only update it.
 
 # GitHub Repository Environments
