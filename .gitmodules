@@ -1,3 +1,6 @@
 [submodule "06-using-environment-variables-and-secrets"]
 	path = 06-using-environment-variables-and-secrets
 	url = https://github.com/paul-gilber/training-github-actions-06-using-environment-variables-and-secrets.git
+[submodule "07-controlling-workflow-and-job-execution"]
+	path = 07-controlling-workflow-and-job-execution
+	url = https://github.com/paul-gilber/training-github-actions-07-controlling-workflow-and-job-execution.git
