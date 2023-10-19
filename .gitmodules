@@ -10,3 +10,6 @@
 [submodule "02-second-action"]
 	path = 02-second-action
 	url = https://github.com/paul-gilber/training-github-actions-02-second-action.git
+[submodule "01-first-action"]
+	path = 01-first-action
+	url = https://github.com/paul-gilber/training-github-actions-01-first-action.git
