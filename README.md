@@ -80,4 +80,4 @@ repository
 
 ## Courses
 ### Udemy
-- [Learn how to build automated CI / CD workflows with GitHub's DevOps service.](https://ibm-learning.udemy.com/course/github-actions-the-complete-guide/learn/lecture/34138472#overview)
+- [Learn how to build automated CI / CD workflows with GitHub's DevOps service.](https://www.udemy.com/course/github-actions-the-complete-guide/)
