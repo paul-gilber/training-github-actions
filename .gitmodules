@@ -1,3 +1,3 @@
-[submodule "training-github-actions-06-using-environment-variables-and-secrets"]
-	path = training-github-actions-06-using-environment-variables-and-secrets
+[submodule "06-using-environment-variables-and-secrets"]
+	path = 06-using-environment-variables-and-secrets
 	url = https://github.com/paul-gilber/training-github-actions-06-using-environment-variables-and-secrets.git
