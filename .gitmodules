@@ -13,3 +13,6 @@
 [submodule "01-first-action"]
 	path = 01-first-action
 	url = https://github.com/paul-gilber/training-github-actions-01-first-action.git
+[submodule "08-jobs-and-docker-containers"]
+	path = 08-jobs-and-docker-containers
+	url = https://github.com/paul-gilber/training-github-actions-08-jobs-and-containers.git
