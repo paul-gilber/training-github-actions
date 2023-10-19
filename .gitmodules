@@ -4,3 +4,6 @@
 [submodule "07-controlling-workflow-and-job-execution"]
 	path = 07-controlling-workflow-and-job-execution
 	url = https://github.com/paul-gilber/training-github-actions-07-controlling-workflow-and-job-execution.git
+[submodule "04-practice-project"]
+	path = 04-practice-project
+	url = https://github.com/paul-gilber/training-github-actions-04-practice-project.git
