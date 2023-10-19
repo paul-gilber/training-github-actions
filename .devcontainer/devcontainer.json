@@ -50,7 +50,9 @@
 			"extensions": [
 				"github.vscode-github-actions",
 				"ms-azuretools.vscode-docker",
-				"dbaeumer.vscode-eslint"
+				"dbaeumer.vscode-eslint",
+				"ms-vscode-remote.remote-containers",
+				"afractal.node-essentials"
 			]
 		}
 	}

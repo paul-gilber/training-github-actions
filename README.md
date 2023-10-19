@@ -76,6 +76,8 @@ repository
 - [Default environment variables](https://docs.github.com/en/actions/learn-github-actions/variables#default-environment-variables)
 - [Using conditions to control job/step execution](https://docs.github.com/en/actions/using-jobs/using-conditions-to-control-job-execution)
 - [Using a matrix for your jobs](https://docs.github.com/en/actions/using-jobs/using-a-matrix-for-your-jobs)
+- [Running jobs in a container](https://docs.github.com/en/actions/using-jobs/running-jobs-in-a-container)
+- [About service containers](https://docs.github.com/en/actions/using-containerized-services/about-service-containers)
 - [academind/github-actions-course-resources](https://github.com/academind/github-actions-course-resources)
 
 ## Courses
