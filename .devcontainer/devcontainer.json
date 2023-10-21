@@ -24,7 +24,7 @@
 	// "forwardPorts": [],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	// "postCreateCommand": "docker --version",
+	"postCreateCommand": "git config --global --add safe.directory ${containerWorkspaceFolder}",
 
 	// Configure tool-specific properties.
 	// "customizations": {},
@@ -32,18 +32,21 @@
 	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
 	"remoteUser": "vscode",
 
+  "runArgs": [
+		// Reuse Host NPM Cache
+    "--volume=${localEnv:HOME}${localEnv:USERPROFILE}/.npm:/home/vscode/.npm",
+    // Reuse Host SSH Keys
+    "--volume=${localEnv:HOME}${localEnv:USERPROFILE}/.ssh:/home/vscode/.ssh"
+  ],
+
 	// Mounts
 	"mounts": [
-		{
-			"source": "${localEnv:HOME}/.m2",
-			"target": "/home/vscode/.m2",
-			"type": "bind"
-		},
-		{
-			"source": "${localEnv:HOME}/.ssh",
-			"target": "/home/vscode/.ssh",
-			"type": "bind"
-		}
+		// Reuse Host SSH Keys - throws error when host .ssh folder does not exist, use --volume runargs instead
+		// {
+		// 	"source": "${localEnv:HOME}${localEnv:USERPROFILE}/.ssh",
+		// 	"target": "/home/vscode/.ssh",
+		// 	"type": "bind"
+		// }
 	],
 	"customizations": {
 		"vscode": {
