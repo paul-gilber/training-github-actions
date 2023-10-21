@@ -52,7 +52,12 @@
 				"ms-azuretools.vscode-docker",
 				"dbaeumer.vscode-eslint",
 				"ms-vscode-remote.remote-containers",
-				"afractal.node-essentials"
+				"afractal.node-essentials",
+				"ms-kubernetes-tools.vscode-kubernetes-tools",
+				"Tim-Koehler.helm-intellisense",
+				"redhat.vscode-yaml",
+				"daiwata.yaml-preview",
+				"kennylong.kubernetes-yaml-formatter"
 			]
 		}
 	}
