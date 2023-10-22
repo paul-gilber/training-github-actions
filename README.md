@@ -78,6 +78,7 @@ repository
 - [Using a matrix for your jobs](https://docs.github.com/en/actions/using-jobs/using-a-matrix-for-your-jobs)
 - [Running jobs in a container](https://docs.github.com/en/actions/using-jobs/running-jobs-in-a-container)
 - [About service containers](https://docs.github.com/en/actions/using-containerized-services/about-service-containers)
+- [Publishing an action](https://docs.github.com/en/actions/creating-actions/publishing-actions-in-github-marketplace#publishing-an-action)
 - [academind/github-actions-course-resources](https://github.com/academind/github-actions-course-resources)
 
 ## Courses

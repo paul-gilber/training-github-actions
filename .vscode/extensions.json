@@ -1,6 +1,7 @@
 {
   "recommendations": [
     "github.vscode-github-actions",
-    "afractal.node-essentials"
+    "afractal.node-essentials",
+    "ms-python.python"
   ]
 }
