@@ -16,3 +16,6 @@
 [submodule "08-jobs-and-docker-containers"]
 	path = 08-jobs-and-docker-containers
 	url = https://github.com/paul-gilber/training-github-actions-08-jobs-and-containers.git
+[submodule "09-custom-actions"]
+	path = 09-custom-actions
+	url = https://github.com/paul-gilber/training-github-actions-09-custom-actions.git
