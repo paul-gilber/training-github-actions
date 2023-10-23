@@ -54,7 +54,8 @@
 				"github.vscode-github-actions",
 				"ms-azuretools.vscode-docker",
 				"dbaeumer.vscode-eslint",
-				"afractal.node-essentials"
+				"afractal.node-essentials",
+				"tomoki1207.pdf"
 			]
 		}
 	}

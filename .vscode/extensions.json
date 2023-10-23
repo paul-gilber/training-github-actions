@@ -3,6 +3,7 @@
     "github.vscode-github-actions",
     "afractal.node-essentials",
     "ms-python.python",
-    "ms-vscode-remote.remote-containers"
+    "ms-vscode-remote.remote-containers",
+    "tomoki1207.pdf"
   ]
 }
