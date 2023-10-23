@@ -19,3 +19,6 @@
 [submodule "09-custom-actions"]
 	path = 09-custom-actions
 	url = https://github.com/paul-gilber/training-github-actions-09-custom-actions.git
+[submodule "10-security-and-permissions"]
+	path = 10-security-and-permissions
+	url = https://github.com/paul-gilber/training-github-actions-10-security-and-permissions.git

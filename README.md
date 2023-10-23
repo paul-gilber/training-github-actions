@@ -61,6 +61,34 @@ repository
 - schedule
 - workflow_call
 
+## Security and Permissions
+### Security Concerns
+#### Script Injection
+```
+A value, set outside a Workflow, is used in a Workflow
+Example(s):
+    - Issue title used in a Workflow shell command
+        -- Workflow / command behavior could be changed
+```
+
+#### Malicious Third-Party Actions
+```
+Actions can perform any logic, including potentially malicious logic
+Example(s):
+    - A third-party Action that reads and exports your secrets
+Solution(s):
+    - Only use trusted Actions and inspect code of unknown / untrusted authors
+```
+
+#### Permission Issues
+```
+Avoid overly permissive permissions (Least Privilege Principle)
+Example(s):
+    - Only allow checking out code ("read-only")
+Solution(s):
+    - GitHub Actions supports fine-grained permissions control
+```
+
 ## References
 - [GitHub Actions Billing](https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions)
 - [Managing GitHub Actions settings for a repository](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/enabling-features-for-your-repository/managing-github-actions-settings-for-a-repository)
@@ -79,6 +107,15 @@ repository
 - [Running jobs in a container](https://docs.github.com/en/actions/using-jobs/running-jobs-in-a-container)
 - [About service containers](https://docs.github.com/en/actions/using-containerized-services/about-service-containers)
 - [Publishing an action](https://docs.github.com/en/actions/creating-actions/publishing-actions-in-github-marketplace#publishing-an-action)
+- [Assigning permissions to jobs](https://docs.github.com/en/actions/using-jobs/assigning-permissions-to-jobs)
+- [Defining access for the GITHUB_TOKEN scopes](https://docs.github.com/en/actions/using-jobs/assigning-permissions-to-jobs#defining-access-for-the-github_token-scopes)
+- [About security hardening with OpenID Connect](https://docs.github.com/en/actions/deployment/security-hardening-your-deployments/about-security-hardening-with-openid-connect)
+- [Configuring OpenID Connect in Amazon Web Services](https://docs.github.com/en/actions/deployment/security-hardening-your-deployments/configuring-openid-connect-in-amazon-web-services)
+- [Permissions for the GITHUB_TOKEN](https://docs.github.com/en/actions/security-guides/automatic-token-authentication#permissions-for-the-github_token)
+- [Security hardening for GitHub Actions](https://docs.github.com/en/actions/security-guides/security-hardening-for-github-actions)
+- [Using secrets in GitHub Actions](https://docs.github.com/en/actions/security-guides/using-secrets-in-github-actions)
+- [Automatic token authentication](https://docs.github.com/en/actions/security-guides/automatic-token-authentication)
+- [Keeping your GitHub Actions and workflows secure Part 1: Preventing pwn requests](https://securitylab.github.com/research/github-actions-preventing-pwn-requests/)
 - [academind/github-actions-course-resources](https://github.com/academind/github-actions-course-resources)
 
 ## Courses
